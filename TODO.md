@@ -15,16 +15,27 @@ you need to work with multiple modules containing classes, utility functions, et
 so many routes that those need to be broken up too much. Packages are simple. They involve splitting your file tree into something that looks like this:
 
 Online Store
+
 |
+
 |
+
 online_store
+
 |___static
+
 |    |___styles.css
+
 |___templates
+
 |    |___index.html
+
 |
+
 |____requirements.txt
+
 |____.gitignore
+
 |____app.py
 
 In packages, you would break your code up into modules, leaving basic things in the project's root folder. Within the "big"
@@ -63,4 +74,4 @@ If you haven't already, check out the resources in the main Varsity repository. 
 
       1. Make sure that in each folder, you're starting your routes with "/<blueprintname>/<routename>" - OR that you're adding URL prefixes when you register your blueprints (this is a stretch challenge, if you don't know what this means or how to do this, don't worry! (or Google))
       2. Check your file structure, the locations of your templates, and your resources. They're there for a reason! We trust that you guys mostly know what you're doing, you got this!
-      3. If all else fails, we'll be hosting office hours each week to help debug and check things out. You can Slack us anytime with questions and we'll get back to you as soon as we can. 
+      3. If all else fails, we'll be hosting office hours each week to help debug and check things out. You can Slack us anytime with questions and we'll get back to you as soon as we can.
