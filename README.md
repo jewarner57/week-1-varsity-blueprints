@@ -1,1 +1,3 @@
-# week-1-varsity-blueprints
+# Week 1 Varsity | Blueprints
+
+### Follow the TODOs in TODO.md to complete this app
