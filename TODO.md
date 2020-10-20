@@ -14,29 +14,24 @@ Packages are one way of beginning to separate your code. Packages are decent for
 you need to work with multiple modules containing classes, utility functions, etc., but you don't have
 so many routes that those need to be broken up too much. Packages are simple. They involve splitting your file tree into something that looks like this:
 
-Online Store
+```
+Online_Store
+│   README.md
+│   requirements.txt
+|   app.py    
+│
+└───online_store
+│   │   
+│   │   
+│   │
+│   └───static
+│   |   │   styles.css
+│   |   │____assets
+│   |          somepicture.jpeg
+|   |___templates
+│         index.html   
 
-|
-
-|
-
-online_store
-
-|___static
-
-|    |___styles.css
-
-|___templates
-
-|    |___index.html
-
-|
-
-|____requirements.txt
-
-|____.gitignore
-
-|____app.py
+```
 
 In packages, you would break your code up into modules, leaving basic things in the project's root folder. Within the "big"
 package folder (in this example, online_store), you would keep your __init__, config, and python module files, with subfolders
